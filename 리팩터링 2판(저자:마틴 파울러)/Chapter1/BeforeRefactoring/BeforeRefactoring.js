@@ -1,5 +1,5 @@
-import PLAYS from './plays.json'
-import INVOICES from './invoices.json'
+import PLAYS from '../plays.json'
+import INVOICES from '../invoices.json'
 
 
 //청구 내역을 HTML으로 출력하는데, 연극 장르와 공연료 정책이 바뀔 때마다 기존 함수와 HTML 버전 함수를
