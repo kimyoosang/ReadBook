@@ -15,7 +15,6 @@ import INVOICES from '../invoices.json'
 //3.Statement에 필요한 데이터 처리에 해당하는 코드를 모두 별도 함수로 빼낸다
 
 //4.두 단계를 명확히 분리한뒤에는 각 코드를 별도 파일에 저장한다
-
 function statement(invoice, plays) {
   let result = `청구 내역 (고객명: ${invoice.customer})\n`;
   for (let perf of invoice.performance) {
