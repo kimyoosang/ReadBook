@@ -1,3 +1,5 @@
+import PLAYS from '../plays.json'
+import INVOICES from '../invoices.json'
 
 export default function createStatementData(invoice, plays) {
   const result = {};
@@ -11,7 +13,7 @@ export default function createStatementData(invoice, plays) {
     const result = Object.assign({}, aPerformance)//얕은복사
     result.play = playFor(result);
     result.amount = amountFor(result);
-    result.volumeCredits = volimeCreditsFor(result);
+    result.volumeCredits = volumeCreditsFor(result);
     return result;
   }
 
