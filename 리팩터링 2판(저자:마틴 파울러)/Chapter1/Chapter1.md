@@ -49,3 +49,11 @@
 - 코드는 명확해야한다, 코드를 수정해야 할 상황이 되면 고쳐야 할 곳을 쉽게 찾을 수 있고 오류 없이 빠르게 수정할 수 있어야 한다
 - 건강한 코드베이스는 생산성을 극대화하고, 곡개에게 필요한 기능을 더 빠르고 저렴한 비용으로 제공하도록 해준다.
 - 리팩터링을 효과적으로 하는 핵심은, 단계를 잘게 나눠야 더 빠르게 처리할 수 있고, 코드는 절대 깨지지 않으며, 이러한 작은 단계들이 모여서 상당히 큰 변화를 이룰 수 있다는 사실을 깨닫는 것이다.
+
+## **예시 코드**
+
+- [기본 코드](./BeforeRefactoring/BeforeRefactoring.js)
+- [첫 번째 리팩터링](./FirstRefactoring/FirstRefactoring.js)
+- [두 번째 리팩터링 1](./SecondRefactoring/createStatementData.js)
+- [두 번째 리팩터링 2](./SecondRefactoring/statement.js)
+- [다형성 추가](./AddPolymorphism/createStatementData.js)
