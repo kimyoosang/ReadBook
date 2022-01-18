@@ -22,7 +22,7 @@
 
 ### **예시**
 
-- **ExtractFunctionExample.md 파일 참조**
+- [함수 추출하기](./ExtractFunctionExample.md)
 
 ## <U>6.2 함수 인라인하기</U>
 
@@ -42,7 +42,7 @@
 
 ### **예시**
 
-- **InlineFunctionExample.md 파일 참조**
+- [함수 인라인하기](./InlineFunctionExample.md)
 
 ## <U>6.3 변수 추출하기</U>
 
@@ -62,7 +62,7 @@
 
 ### **예시**
 
-- **ExtractVariableExample.md 파일 참조**
+- [변수 추출하기](./ExtractVariableExample.md)
 
 ## <U>6.4 변수 인라인하기</U>
 
