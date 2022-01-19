@@ -22,7 +22,7 @@
 
 ### **예시**
 
-- [함수 추출하기](./ExtractFunctionExample.md)
+- [함수 추출하기](./Example/ExtractFunctionExample.md)
 
 ## <U>6.2 함수 인라인하기</U>
 
@@ -42,7 +42,7 @@
 
 ### **예시**
 
-- [함수 인라인하기](./InlineFunctionExample.md)
+- [함수 인라인하기](./Example/InlineFunctionExample.md)
 
 ## <U>6.3 변수 추출하기</U>
 
@@ -62,7 +62,7 @@
 
 ### **예시**
 
-- [변수 추출하기](./ExtractVariableExample.md)
+- [변수 추출하기](./Example/ExtractVariableExample.md)
 
 ## <U>6.4 변수 인라인하기</U>
 
@@ -112,8 +112,8 @@
 
 ### **예시**
 
-- [함수 이름 바꾸기](./SimpleRenameFunction.md)
-- [매개변수 추가하기](./AddParameters.md)
+- [함수 이름 바꾸기](./Example/SimpleRenameFunction.md)
+- [매개변수 추가하기](./Example/AddParameters.md)
 
 ## <U>6.6 변수 캡슐화 하기</U>
 
@@ -136,7 +136,7 @@
 
 ### **예시**
 
-- [변수 캡슐화하기](./EncapsulateVariable.md)
+- [변수 캡슐화하기](./Example/EncapsulateVariable.md)
 
 ## <U>6.7 변수 이름 바꾸기</U>
 
@@ -154,4 +154,4 @@
 
 ### **예시**
 
-- [변수 이름 바꾸기](./RenameVariable.md)
+- [변수 이름 바꾸기](./Example/RenameVariable.md)
