@@ -15,7 +15,7 @@ const baseCharge = baseRate(aReading.month, aReading.year) * aReading.quantity;
 //클라이언트2: 차에도 세금을 부과하는 코드.기본적인 차 소비량만큼은 면세
 const aReading = anquireReading();
 const baseCharge = baseRate(aReading.month, aReading.year) * aReading.quantity;
-const taxableCharge = Math.max(0, base - taxThreshould(aReading.year));
+const taxableCharge = Math.max(0, base - aReading.year);
 
 //클라이언트3: 기본요금 계산 함수가 들어있는 코드
 const aReading = anquireReading();
@@ -49,7 +49,7 @@ const rawReading = anquireReading();
 const baseCharge = new Reading(rawReading);
 
 function taxableChargeFn(aReading) {
-  return Math.max(0, aReading.baseCharge - taxThreshould(aReading.year));
+  return Math.max(0, aReading.baseCharge - taxThreshold(aReading.year));
 }
 
 //클라이언트3: 기본요금 계산 함수가 들어있는 코드
@@ -80,7 +80,7 @@ class Reading {
     return baseRate(this.month, this.year) * this.quantity;
   }
   get taxableCharge() {
-    return Math.max(0, this.baseCharge - taxThreshould(this.year));
+    return Math.max(0, this.baseCharge - taxThreshold(this.year));
   }
 }
 ```
