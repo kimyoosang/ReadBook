@@ -22,7 +22,7 @@ addReservation(customer) {
 //Book 클래스
 addReservation(customerx, isPriority) {
   assert(isPriority === true || isPriority === false); //호출하는 곳에서 새로 추가한 매개변수르 실제로 사용하는지 확인
-  this._reservations.pusj(customer);
+  this._reservations.pusj(customer)
 }
 
 ```
