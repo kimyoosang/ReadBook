@@ -32,14 +32,20 @@ class Order {
     this._priority = data.priority;
     //나머지 초기화 코드 생략
   }
-  get priority() {return this._priority.toString();}
-  get priority(aString) {this._priority = new Priority(aString);}
+  get priority() {
+    return this._priority.toString();
+    }
+  get priority(aString) {
+    this._priority = new Priority(aString);
+    }
 }
 class Priority {
   constructor(value) {
     this._value = value;
   }
-  toString() {return this._value;}
+  toString() {
+    return this._value;
+    }
 }
 //클라이언트
 highPriorityCount = orders.filter(0 => "high" === 0.priorityString || "rush" === o.priorityString.length;)
@@ -58,14 +64,20 @@ class Order {
     this._priority = data.priority;
     //나머지 초기화 코드 생략
   }
-  get priority() {return this._priority.toString();}
-  get priority(aString) {this._priority = new Priority(aString);}
+  get priority() {
+    return this._priority.toString();
+    }
+  get priority(aString) {
+    this._priority = new Priority(aString);
+    }
 }
 class Priority {
   constructor(value) {
     this._value = value;
   }
-  toString() {return this._value;}
+  toString() {
+    return this._value;
+    }
 }
 //클라이언트
 highPriorityCount = orders.filter(0 => "high" === 0.priorityString || "rush" === o.priorityString.length;)
@@ -87,9 +99,15 @@ class Order {
     this._priority = data.priority;
     //나머지 초기화 코드 생략
   }
-  get priority() {return this._priority;}
-  get priority() {return this._priority.toString();}
-  get priority(aString) {this._priority = new Priority(aString);}
+  get priority() {
+    return this._priority;
+    }
+  get priority() {
+    return this._priority.toString();
+    }
+  get priority(aString) {
+    this._priority = new Priority(aString);
+    }
 }
 class Priority {
   constructor(value) {
@@ -98,7 +116,9 @@ class Priority {
     }
     this._value = value;
   }
-  toString() {return this._value;}
+  toString() {
+    return this._value;
+    }
 }
 //클라이언트
 highPriorityCount = orders.filter(0 => "high" === 0.priorityString || "rush" === o.priorityString.length;)
