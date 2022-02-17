@@ -1,5 +1,4 @@
 ## 리팩터링 2판 읽고 정리<br></br>
-
 ### [Chapter1. 리팩터링: 첫 번째 예시](./Chapter1/Chapter1.md)
 
 ### [Chapter2. 리팩터링 원칙](./Chapter2/Chapter2.md)
