@@ -42,7 +42,7 @@
 
 ### **예시**
 
-- [함수 매개변수화하기](./Example/PramererizeFunction.md)
+- [함수 매개변수화하기](./Example/ParamererizeFunction.md)
 
 ## **11.3 플래그 인수 제거하기**
 
