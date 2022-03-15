@@ -22,4 +22,4 @@
 
 ### [Chapter11. API 리팩터링](./Chapter11/Chapter11.md)
 
-### Chapter12. 상속 다루기
+### [Chapter12. 상속 다루기](./Chapter12/Chapter12.md)
